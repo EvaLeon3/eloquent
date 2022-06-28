@@ -46,7 +46,7 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class);
     }
-
+    
     public function getGetNameAttribute()
     {
         return strtoupper($this->name);

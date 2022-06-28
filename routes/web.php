@@ -64,7 +64,6 @@ Route::get('serialization', function () {
  
    //dd($users->toArray());
    //$user = $users->find(1);
-
    //dd($user);
    dd($users->toJson());
 });
